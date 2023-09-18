@@ -1,3 +1,9 @@
+:root {
+  /* declare a variable with `--` syntax */
+  --my-text-color: yellow;
+  --my-theme-color: rgb(4,173,210);;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -21,20 +27,22 @@ body {
   justify-content: space-between;
   padding: 60px;
   background: black;
-  background-image: url("../images/pexels-elijah.jpg");
-  color: rgb(195, 96, 96);
+  background-image: url("../images/pexels-steve.jpg");
+  background-size: cover;
+  color: var(--my-text-color);
 }
 
 nav {
   display: flex;
   justify-content: flex-end;
-  background-color: rgb(195, 96, 96);
+  background-color: var(--my-theme-color);
 }
 
 nav a {
-  color: black;
+  color: var(--my-text-color);
   padding: 14px 20px;
-  text-decoration: none;
+  text-decoration: solid;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -47,13 +55,16 @@ nav a {
 /* Style the aside elements within the section containers */
 .section-container aside {
   flex: 1;
-  background-color: rgb(69, 63, 63);
+  /* background-color: rgb(69, 63, 63); */
+  background-color: white;
+  border: 0 10px 0 0 solid black;
   max-width: 300px;
   padding: 80px;
   flex-direction: column;
   justify-content: space-between;
   text-align: left;
-  color: rgb(195, 96, 96);
+  border-right:2px solid var(--my-theme-color);;
+  /* color: var(--my-text-color); */
 }
 
 
@@ -84,8 +95,8 @@ nav a {
 
 .card header {
   padding: 20px;
-  background: black;
-  color: rgb(195, 96, 96);
+  background: rgb(4,173,210);
+  color: var(--my-text-color);
 }
 
 .card img {
@@ -98,8 +109,12 @@ footer {
   padding: 50px;
   text-align: center;
   background: black;
-  color: rgb(195, 96, 96);
+  color: var(--my-text-color);
   margin-top: 100%;
+}
+
+footer a {
+  color: var(--my-text-color);
 }
 
 @media screen and (max-width: 560px) {
