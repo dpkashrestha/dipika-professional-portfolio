@@ -9,7 +9,7 @@ This repository contains code for a professional portfolio webpage using HTML an
 ## Deployment
 This website is deployed to GitHub pages. 
 
-Link: <TBD>
+Link: https://dpkashrestha.github.io/dipika-professional-portfolio/
 
 ## License
 Distributed under the MIT License. See LICENSE for more information.
