@@ -4,7 +4,7 @@
 This repository contains code for a professional portfolio webpage using HTML and CSS. 
 
 ## Screenshot
-[Screenshot](<TBD>)
+[Screenshot](./assets/images/portfolio-screenshot.png)
 
 ## Deployment
 This website is deployed to GitHub pages. 
