@@ -154,6 +154,11 @@ footer a {
     flex-direction: column;
   }
 
+  .section-container aside {
+    max-height: 50px;
+    padding: 30px;
+  }
+
   /* Reset flex properties for stacking */
   .section-container aside,
   .section-container .aside-content {
@@ -167,5 +172,9 @@ footer a {
   .card {
     max-width: 100%; /* Allow cards to take full width on smaller screens */
     margin: 10px 0; /* Reduce margin to stack cards closely */
+  }
+
+  footer {
+    flex-direction: column; 
   }
 }
